@@ -1,0 +1,20 @@
+name: ChunkBuster
+version: 1.0
+main: me.evade.chunkBuster.ChunkBuster
+api-version: 1.21
+commands:
+  chunkbuster:
+    description: ChunkBuster main command
+    usage: /chunkbuster give <player> <amount>
+    aliases: [cb]
+    permission: chunkbuster.command
+permissions:
+  chunkbuster.command:
+    description: Allows access to the base chunkbuster command
+    default: true
+  chunkbuster.give:
+    description: Allows giving chunk busters to players
+    default: op
+  chunkbuster.use:
+    description: Allows using chunk busters
+    default: op
